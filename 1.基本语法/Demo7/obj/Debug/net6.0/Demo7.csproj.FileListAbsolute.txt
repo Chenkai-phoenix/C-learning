@@ -1,0 +1,15 @@
+F:\CSharpCode\Demo7\bin\Debug\net6.0\Demo7.exe
+F:\CSharpCode\Demo7\bin\Debug\net6.0\Demo7.deps.json
+F:\CSharpCode\Demo7\bin\Debug\net6.0\Demo7.runtimeconfig.json
+F:\CSharpCode\Demo7\bin\Debug\net6.0\Demo7.dll
+F:\CSharpCode\Demo7\bin\Debug\net6.0\Demo7.pdb
+F:\CSharpCode\Demo7\obj\Debug\net6.0\Demo7.csproj.AssemblyReference.cache
+F:\CSharpCode\Demo7\obj\Debug\net6.0\Demo7.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\Demo7\obj\Debug\net6.0\Demo7.AssemblyInfoInputs.cache
+F:\CSharpCode\Demo7\obj\Debug\net6.0\Demo7.AssemblyInfo.cs
+F:\CSharpCode\Demo7\obj\Debug\net6.0\Demo7.csproj.CoreCompileInputs.cache
+F:\CSharpCode\Demo7\obj\Debug\net6.0\Demo7.dll
+F:\CSharpCode\Demo7\obj\Debug\net6.0\refint\Demo7.dll
+F:\CSharpCode\Demo7\obj\Debug\net6.0\Demo7.pdb
+F:\CSharpCode\Demo7\obj\Debug\net6.0\Demo7.genruntimeconfig.cache
+F:\CSharpCode\Demo7\obj\Debug\net6.0\ref\Demo7.dll

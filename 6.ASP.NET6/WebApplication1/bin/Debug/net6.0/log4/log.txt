@@ -1,0 +1,28 @@
+2022-03-19 15:34:32,130 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5231
+2022-03-19 15:34:32,315 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-19 15:34:32,323 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-19 15:34:32,327 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication1\
+2022-03-19 15:37:05,987 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5231
+2022-03-19 15:37:06,151 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-19 15:37:06,161 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-19 15:37:06,165 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication1\
+2022-03-19 15:37:29,033 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5231
+2022-03-19 15:37:29,250 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-19 15:37:29,263 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-19 15:37:29,269 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication1\
+2022-03-19 15:38:08,937 [24] INFO  WebApplication1.Controllers.HomeController2 - HomeController2被构造了。。Ilogger1
+2022-03-19 15:38:09,006 [24] INFO  WebApplication1.Controllers.HomeController2 - HomeController2被构造了。。LoggerFactory---Ilogger2
+2022-03-19 15:38:09,019 [24] INFO  WebApplication1.Controllers.HomeController2 - HomeController2被执行了。。LoggerFactory---Ilogger3
+2022-03-19 15:38:09,042 [24] INFO  WebApplication1.Controllers.HomeController2 - Index被执行了。。
+2022-03-19 15:40:49,253 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5231
+2022-03-19 15:40:49,828 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-19 15:40:49,891 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-19 15:40:49,991 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication1\
+2022-03-19 15:44:05,146 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5231
+2022-03-19 15:44:05,505 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-19 15:44:05,524 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-19 15:44:05,533 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication1\
+2022-03-19 15:44:26,304 [6] INFO  WebApplication1.Controllers.HomeController2 - HomeController2被构造了。。Ilogger1
+2022-03-19 15:44:26,357 [6] INFO  WebApplication1.Controllers.HomeController2 - HomeController2被构造了。。LoggerFactory---Ilogger2
+2022-03-19 15:44:26,364 [6] INFO  WebApplication1.Controllers.HomeController2 - HomeController2被执行了。。LoggerFactory---Ilogger3
+2022-03-19 15:44:26,371 [6] INFO  WebApplication1.Controllers.HomeController2 - Index被执行了。。

@@ -1,0 +1,17 @@
+一、基本概念
+1.日志级别
+Trace < Debug < Information < Warning < Error < Critical
+2.日志提供者
+提供输出的日志。
+3.日志输出到控制台
+ a.nuget：Microsoft.Extensions.Logging；Microsoft.Extensions.Logging.Console
+ b. DI输出日志步骤
+ （1）创建DI容器
+ （2）注册服务
+ （3）设置日志的输出方式[按需要设置输出级别]
+ （4）获取日志服务
+4.日志输出到文本
+a.Nlog
+（1）nuget：Nlog.Extensions.Logging
+（2）项目根目录下创建nlog.config文件；配置信息https://github.com/NLog/NLog/wiki/Getting-started-with-ASP.NET-Core-5（可以是其他文件名，但需要单独配置）
+（3）增加logBuilder.AddNlog（）

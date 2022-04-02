@@ -1,0 +1,10 @@
+1.用于发送 HTTP 请求以及接收HTTP 响应。
+using System.Net.Http;
+HttpClient httpclient = new HttpClient()             //涉及资源回收，使用using（）{}
+ string html = await httpclient.GetStringAsync(url)  //获取网页源码
+2.查看当前线程ID
+Thread.CurrentThread.ManagedThreadId
+3.将普通类型转换为task类型
+task.fromresult(T)，返回值是task<T>;
+4.判断两个对象是否相同
+Object.ReferenceEquals（object，object）

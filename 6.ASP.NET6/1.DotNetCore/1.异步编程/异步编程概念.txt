@@ -1,0 +1,59 @@
+一.异步编程
+1.异步方法：由async修饰的方法，惯例方法名是方法名Async，返回值一般是Task<T>，若没有返回值一般设置为Task返回类型（非泛型）；
+2.调用异步方法；使用关键字await xxxAsync（），此时返回的结果就是TASK<T>泛型中的T类型  不加await返回的task<t>；
+例如：public async Task<int> TestAsync(){}
+      int n = await TestAsync();
+3:异步方法具有传染性：一个方法中await调用了异步方法，那该方法必须也是async异步方法；
+4.await作用：
+（1）让异步方法完全执行完成，再开始运行下一行代码。因为异步方法在其他线程中运行，
+     不加await会出现异步方法还没执行完成就被调用了，会占用报错。
+（2）public async Task<int> TestAsync(){}
+     int n = await TestAsync(); ======Task<int> task = TestAsync(); int n = task.result;
+（3）使用await调用异步方法时的时候必须使用async修饰异步方法；
+5.命名空间：
+（1）await：System
+（2）Task:System.Threading.Tasks
+6.异步委托
+ThreadPool.QueueUserWorkItem(async (obj) => 
+{
+	while(true)
+	{
+	}
+}
+);
+lambda表达式：(obj) => {} ，默认不支持异步，需要异步的话加async
+7、await 之前的代码是一个线程，当执行await时线程会返还线程池，await执行完毕后会从线程池调度一个新线程来执行其后面的代码。
+8.异步编程不等于多线程
+（1）await前后是资源池根据代码执行时间自动选择分配线程
+异步方法内手动使用新线程，Thread，TASK.Run（委托）
+9.为什么有的异步方法没有关键字Async？
+因为异步方法中没有使用await调用，使用的普通方法调用；
+10.async优/缺点
+优点：写法简单，取值直接。
+缺点：
+（1）异步方法会生成一个类，运行没有普通方法效率高
+（2）可能会占用更多的线程；
+11.async,await使用环境
+（1）返回值是TASK的不一定必须用async，写async只是为了使用await取值；
+（2）当一个异步方法仅仅对另一个异步方法进行调用，没有过复杂逻辑，可以不加Async，使用普通方法调用规则
+12.异步编程中的暂停
+（1）不建议用thread.sleep(),有可能阻塞主线程;
+（2）使用await Task.Delay();
+13.CancellationTOken结构体
+（1）作用：用于获取提前终止执行的信号.
+（2）成员：
+None：空
+bool IsCancellationRequested 是否取消
+ThrowIfCancellationRequested（）； 若任务被取消，执行这句话就抛异常。
+（3）使用CancellationTokenSurce类初始化
+a.可以new
+b.CancelAfter():超时后发出取消信号；
+c.Cancel():发出取消信号
+d.this.Token：返回CancellationToken类型
+(4)异步方法中有重载带有 CancellationToken参数时，由.net框架传值。
+14.异步编程之Whenall
+1.属于task类的方法
+2.语法： Whenall<TRsult>(params Task<TResult>[] tasks),返回值类型Task<TResult[]>
+3.作用：当多个task都完成，返回task；用于等待多个执行任务结束，但不要求所有任务的执行顺序。
+4.task.FromResult（T）:创建普通数值的task对象,返回task<int>类型
+15.接口中的异步方法不写async，但是要写task，接口不允许有任何修饰词；被继承的类在实现接口异步方法时根据有没有await决定是否写async。

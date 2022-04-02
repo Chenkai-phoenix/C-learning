@@ -1,0 +1,12 @@
+2022-04-01 13:32:03.2736|0|WARN|SystemServices.LoggingDemo2|运行失败，正在重试。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.3462|0|ERROR|SystemServices.LoggingDemo2|运行异常。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.3643|0|WARN|SystemServices.LoggingDemo2|运行失败，正在重试。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.3778|0|ERROR|SystemServices.LoggingDemo2|运行异常。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.3893|0|WARN|SystemServices.LoggingDemo2|运行失败，正在重试。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.5119|0|ERROR|SystemServices.LoggingDemo2|运行异常。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.5784|0|WARN|SystemServices.LoggingDemo2|运行失败，正在重试。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.6632|0|ERROR|SystemServices.LoggingDemo2|运行异常。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.6717|0|WARN|SystemServices.LoggingDemo2|运行失败，正在重试。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.7455|0|ERROR|SystemServices.LoggingDemo2|运行异常。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:03.7746|0|WARN|SystemServices.LoggingDemo2|运行失败，正在重试。。。 |url: |action: |SystemServices.LoggingDemo2.Test
+2022-04-01 13:32:04.1458|0|ERROR|SystemServices.LoggingDemo2|运行异常。。。 |url: |action: |SystemServices.LoggingDemo2.Test

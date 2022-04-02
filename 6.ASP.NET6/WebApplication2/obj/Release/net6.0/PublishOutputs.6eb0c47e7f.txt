@@ -1,0 +1,7 @@
+F:\CSharpCode\五.ASP.NET6\WebApplication2\obj\Release\net6.0\PubTmp\Out\WebApplication2.exe
+F:\CSharpCode\五.ASP.NET6\WebApplication2\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+F:\CSharpCode\五.ASP.NET6\WebApplication2\obj\Release\net6.0\PubTmp\Out\appsettings.json
+F:\CSharpCode\五.ASP.NET6\WebApplication2\obj\Release\net6.0\PubTmp\Out\WebApplication2.dll
+F:\CSharpCode\五.ASP.NET6\WebApplication2\obj\Release\net6.0\PubTmp\Out\WebApplication2.deps.json
+F:\CSharpCode\五.ASP.NET6\WebApplication2\obj\Release\net6.0\PubTmp\Out\WebApplication2.runtimeconfig.json
+F:\CSharpCode\五.ASP.NET6\WebApplication2\obj\Release\net6.0\PubTmp\Out\WebApplication2.pdb

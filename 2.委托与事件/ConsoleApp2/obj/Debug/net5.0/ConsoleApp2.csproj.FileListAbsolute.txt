@@ -1,0 +1,16 @@
+F:\CSharpCode\2.委托与事件\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.exe
+F:\CSharpCode\2.委托与事件\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.deps.json
+F:\CSharpCode\2.委托与事件\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.runtimeconfig.json
+F:\CSharpCode\2.委托与事件\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.runtimeconfig.dev.json
+F:\CSharpCode\2.委托与事件\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.dll
+F:\CSharpCode\2.委托与事件\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.pdb
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.csproj.AssemblyReference.cache
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.AssemblyInfoInputs.cache
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.AssemblyInfo.cs
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.dll
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\refint\ConsoleApp2.dll
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.pdb
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.genruntimeconfig.cache
+F:\CSharpCode\2.委托与事件\ConsoleApp2\obj\Debug\net5.0\ref\ConsoleApp2.dll

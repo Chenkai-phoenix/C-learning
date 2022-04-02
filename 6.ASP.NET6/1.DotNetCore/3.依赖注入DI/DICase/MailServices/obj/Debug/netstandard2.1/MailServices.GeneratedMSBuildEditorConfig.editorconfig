@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MailServices
+build_property.ProjectDir = F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\MailServices\

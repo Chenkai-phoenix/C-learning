@@ -1,0 +1,15 @@
+F:\CSharpCode\Demo9\bin\Debug\net6.0\Demo9.exe
+F:\CSharpCode\Demo9\bin\Debug\net6.0\Demo9.deps.json
+F:\CSharpCode\Demo9\bin\Debug\net6.0\Demo9.runtimeconfig.json
+F:\CSharpCode\Demo9\bin\Debug\net6.0\Demo9.dll
+F:\CSharpCode\Demo9\bin\Debug\net6.0\Demo9.pdb
+F:\CSharpCode\Demo9\obj\Debug\net6.0\Demo9.csproj.AssemblyReference.cache
+F:\CSharpCode\Demo9\obj\Debug\net6.0\Demo9.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\Demo9\obj\Debug\net6.0\Demo9.AssemblyInfoInputs.cache
+F:\CSharpCode\Demo9\obj\Debug\net6.0\Demo9.AssemblyInfo.cs
+F:\CSharpCode\Demo9\obj\Debug\net6.0\Demo9.csproj.CoreCompileInputs.cache
+F:\CSharpCode\Demo9\obj\Debug\net6.0\Demo9.dll
+F:\CSharpCode\Demo9\obj\Debug\net6.0\refint\Demo9.dll
+F:\CSharpCode\Demo9\obj\Debug\net6.0\Demo9.pdb
+F:\CSharpCode\Demo9\obj\Debug\net6.0\Demo9.genruntimeconfig.cache
+F:\CSharpCode\Demo9\obj\Debug\net6.0\ref\Demo9.dll

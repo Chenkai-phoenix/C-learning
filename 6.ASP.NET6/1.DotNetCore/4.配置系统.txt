@@ -1,0 +1,27 @@
+一、Json文件配置
+1.Json格式
+2、准备：
+（1）nuget：microsoft.extensions.configuration        //配置框架
+（2）nuget：microsoft.extensions.configuration.json  //读取json
+ (3).json文件属性为始终复制
+3.配置读取方式一
+（1）ConfigurationBuilder创建config框架
+（2）.AddJsonFile()添加和设置配置文件
+ (3).Build()读取到的配置文件
+（4）IConfigurationRoot类接收读取到的配置文件
+4.配置读取方式二
+（1）nuget： Microsoft.Extensions.Configuration.Binder;
+ (2) T XXX = configRoot.GetSection("T").Get<T>() //将子节点的内容返回给子节点类的对象
+5.推荐读取方式
+(1)nuget：Microsoft.Extensions.Options
+   nuget: Microsoft.Extensions.Configuration.Binder;
+(2)读取配置时，DI声明IOptions<T>(不会读取到新值)；IoptionSnapShot(一定范围内保持不变)推荐；
+                    IoptionMonitor（读取到新值）；
+(3)读取步骤：
+a>创建DI容器
+b>注册服务
+c>使用Option.Configure<t>()绑定配置文件根节点
+d>获取DI服务
+二、其他配置方式 
+1.命令行配置
+nuget:Microsoft.Extensions.Configuration.CommandLine

@@ -1,0 +1,17 @@
+F:\CSharpCode\四.SOCKET\Server\bin\Debug\net6.0-windows\Server.exe
+F:\CSharpCode\四.SOCKET\Server\bin\Debug\net6.0-windows\Server.deps.json
+F:\CSharpCode\四.SOCKET\Server\bin\Debug\net6.0-windows\Server.runtimeconfig.json
+F:\CSharpCode\四.SOCKET\Server\bin\Debug\net6.0-windows\Server.dll
+F:\CSharpCode\四.SOCKET\Server\bin\Debug\net6.0-windows\Server.pdb
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.csproj.AssemblyReference.cache
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.Form1.resources
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.csproj.GenerateResource.cache
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.AssemblyInfoInputs.cache
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.AssemblyInfo.cs
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.csproj.CoreCompileInputs.cache
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.dll
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\refint\Server.dll
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.pdb
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\Server.genruntimeconfig.cache
+F:\CSharpCode\四.SOCKET\Server\obj\Debug\net6.0-windows\ref\Server.dll

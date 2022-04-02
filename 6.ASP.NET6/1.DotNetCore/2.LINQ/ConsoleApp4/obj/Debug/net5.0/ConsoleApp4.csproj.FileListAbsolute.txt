@@ -1,0 +1,16 @@
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\bin\Debug\net5.0\ConsoleApp4.exe
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\bin\Debug\net5.0\ConsoleApp4.deps.json
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\bin\Debug\net5.0\ConsoleApp4.runtimeconfig.json
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\bin\Debug\net5.0\ConsoleApp4.runtimeconfig.dev.json
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\bin\Debug\net5.0\ConsoleApp4.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\bin\Debug\net5.0\ConsoleApp4.pdb
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\ConsoleApp4.csproj.AssemblyReference.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\ConsoleApp4.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\ConsoleApp4.AssemblyInfoInputs.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\ConsoleApp4.AssemblyInfo.cs
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\ConsoleApp4.csproj.CoreCompileInputs.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\ConsoleApp4.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\refint\ConsoleApp4.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\ConsoleApp4.pdb
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\ConsoleApp4.genruntimeconfig.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\2.LINQ\ConsoleApp4\obj\Debug\net5.0\ref\ConsoleApp4.dll

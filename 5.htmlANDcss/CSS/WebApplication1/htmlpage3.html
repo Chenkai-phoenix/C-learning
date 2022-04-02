@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<!--关联选择器-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>关联选择器</title>
+    <style type="text/css">
+        /*class选择器*/
+        em.pe-1 {
+            background-color: red;
+        }
+        /*ID选择器*/
+        #em1 {
+            background-color:yellow;
+        }
+        /*关联选择器*/
+        p em {
+            background-color:forestgreen;
+        }
+    </style>
+</head>
+<body>
+    <p><em class="pe-1">p标签中的em标签</em></p>
+    <em id="em1">我是em1标签</em><br/>
+    <p><em>学习关联选择器</em></p>
+</body>
+</html>

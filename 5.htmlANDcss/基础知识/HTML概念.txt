@@ -1,0 +1,91 @@
+一.概念
+1.超文本标记语言
+2.HTML存在大量的标签，目的写网页；
+3.HTML决定网页的内容，CSS决定内容的表现样式；
+4.标签框架
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+5.常用标签
+（1）段落标签（段落换行，有间隔）：<p></p>
+（2）特殊键：空格：&nbsp；
+（3）标题标签：<h#></h#>
+（4）图片标签：<img src="path" width = "200px" heigth = "" boder = "" alt = "" title = ""/>
+标签属性：
+src:路径
+boder:边框像素
+alt：当图片加载异常时显示内容
+title：鼠标在图片上时的显示
+（5）文本加粗：<b></b>
+（6）水平分割线：<hr/>
+（7）换行：<br/>
+（8）字体大小和颜色:<font size= "6" color = "red"> asda</font>   (最大字体7)
+（9）斜体：<i></i>
+（10）下划线文本：<u></u>
+（11）定义上下标：<sup></sup>上标 <sub></sub>下标
+（12）定义加删除线的文本：<s></s>
+（13）代码标签<code></code>
+（14）保持原格式标签:<pre></pre>
+（15）滑动标签：<marquee></marquee>   属性,direction = "right".默认是left
+（16）a标签,:
+作用1页面间超链接：<a></a> 属性：href = "链接"，target = "_blank"（新打开一个网页访问链接），  
+                                                target = "_self"（当前页访问链接）
+作用2网页内跳转：<a></a>   属性：name = "" 给标签起名字    href = "#要跳转的标签名"
+
+作用3网页间跳转：<a></a>   属性：name = "" 给标签起名字    href = "要跳转的网页路径.html#要跳转的标签名"\\
+6.body标签属性：
+（1）text：在body中文本的颜色
+（2）link：设置超链接的颜色,alink:点击时超链接的颜色，vlink：点击后超链接的颜色
+（3）bgcolor：背景色
+（4）background：背景图片 路径
+7.列表
+（1）无序列表：<ul>                       属性：type =  
+					<li></li>
+               </ul>
+（2）有序列表：<ol>                       属性：type =  
+					<li></li>
+               </ol>
+（2）自定义列表(章节表)：
+                 <dl>                       属性：type =  
+					<dt></dt>
+					<dd><dd>
+					<dd><dd>
+                </dl>
+8.表格
+（1）<table border = "1">                tr：行 ，td：单元格（列）
+		<tr>
+			<td></td>
+		</tr>
+     </table>
+属性：border， cellspacing（单元格与边框距离） ，cellpadding（单元格与文本距离）
+（2）跨列表格:   <td colspan = 2></td>
+（3）跨行表格: 	 <td rowspan = 2></td>
+（4）跨行又跨列：算列表的最大列数最大行数
+9.表单
+（1）<form></form>
+属性：
+action = "path"   //提交表单的路径
+method = "get"(set)
+（2）<input/>(组件)
+属性：
+type = "text"(文本框)/"password"（密码框）/"submit"（提交框）/"reset"（重置框）
+"redio"（点选框）/"file"（文件选择框）
+（3）<fieldset></fieldset> (分组框)
+     <legend>分组名</legend>
+（4）<select></select> （下拉框）
+属性：name： size = "2"(仅显示两项，默认全显示)
+     <option></option> （选项）
+	 <optgroup lable = "项组名">(项分组)     
+		<option></option>
+	 </optgroup>
+（5）<textarea></textarea> （文本显示框）
+属性：cols = "20" rows = "20" 设置窗体大小
+10、DIV
+（1）独占网页一层用于布局：<div></div>
+属性：style = "background:red;height:50px;width:200px"
+11、span
+（1）用于修饰文本：<span></span>

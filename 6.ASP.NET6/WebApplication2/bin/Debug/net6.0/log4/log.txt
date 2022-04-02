@@ -1,0 +1,56 @@
+2022-03-20 15:20:22,338 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 15:20:22,854 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 15:20:22,865 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 15:20:22,870 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 15:21:36,476 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 15:21:37,002 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 15:21:37,015 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 15:21:37,049 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:07:23,441 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:07:24,972 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:07:25,008 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:07:25,046 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:10:43,457 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:10:43,591 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:10:43,598 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:10:43,603 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:12:33,757 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:12:34,399 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:12:34,410 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:12:34,426 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:14:24,300 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:14:24,449 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:14:24,456 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:14:24,463 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:15:59,965 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:16:00,451 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:16:00,489 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:16:00,539 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:17:22,537 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:17:22,836 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:17:22,906 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:17:22,973 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:18:13,180 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:18:13,429 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:18:13,439 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:18:13,446 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:21:42,226 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:21:42,633 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:21:42,669 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:21:42,686 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:22:42,769 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:22:43,591 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:22:43,620 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:22:43,669 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:42:40,775 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:42:41,092 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:42:41,245 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:42:41,266 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 16:47:24,717 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 16:47:24,846 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 16:47:24,934 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 16:47:24,967 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\
+2022-03-20 17:28:20,075 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5215
+2022-03-20 17:28:22,167 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2022-03-20 17:28:22,212 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2022-03-20 17:28:22,366 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: F:\CSharpCode\五.ASP.NET6\WebApplication2\

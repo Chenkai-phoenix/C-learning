@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<!--伪元素选择器-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>伪元素选择器</title>
+    <style type="text/css">
+        /*鼠标点击a标签时*/
+        a:active {
+            background-color:yellow;
+        }
+        /*鼠标移动a标签时*/
+        a:hover {
+            font-size:x-large;
+        }
+        a:link {
+            background-color: green;
+        }
+        /*鼠标点击a标签后*/
+        a:visited {
+            color: gray;
+            text-decoration: none
+        }
+        /*p标签第一个字*/
+        p:first-letter {
+            font-size:xx-large;
+        }
+        /*p标签第一行*/
+        p:first-line {
+            color: springgreen;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">超链接</a>
+    <a href="#">超链接</a>
+    <a href="#">超链接</a>
+    <a href="#">超链接</a>
+    <a href="#">超链接</a>
+    <a href="#">超链接</a><br/>
+    <p>爱你不要一万年<br/>只要朝朝暮暮</p>
+</body>
+</html>

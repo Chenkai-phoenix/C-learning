@@ -1,0 +1,61 @@
+/*----Socket
+1.概念：套接字，进程间（应用程序间）通信机制，用于描述IP地址和端口，是一个通信链句柄；
+2.常用端口号：http:80;  ftp:21;   smtp:25;
+3.测试端口：50000以后；端口号1--65535；
+4.流程：
+（1） 服务器端至少两个socket；一个负责监听，一个负责建立通信通道；
+step1：创建监听Socket对象 Socket listenSocket = new Socket(AddressFamily.InternetWork,SocketType.Stream,protocolType.TCP)；
+step2:绑定监听端口及IP ；
+IPAddress ip = IPAddress.ANY
+int port = 50000;
+IpEndPoint point = new IpEndPoint(ip,port);
+listenSocket.Bind(point);
+step3:同时监听个数      //排队
+listenSocket.listen(10);
+step4:将监听到的客户端socket赋值给连接socket
+Socket linkSocket = listenSocket.Accept();
+step5:接收客户端消息
+Byte[] buffer = new Byte[1024];
+int realByte = linkSocket.Receive(buffer);
+step6:发送信息
+Byte[] buffer = new Byte[1024];
+linkSocket.Send(buffer,0,length);
+
+（2）客户端至少一个socket，负责向服务器发送建立请求；
+step1:建立请求Socket
+Socket reqSocket = new Socket(AddressFamily.InternetWork,SocketType.Stream,protocolType.TCP)；
+step2：绑定要请求的IP和端口号
+IPAddress ip = IPAddress.Parse("192.168.0.102");
+int port = 50000;
+IpEndPoint point = new(ip,port);
+reqSocket.Bind(point);
+step3:发送连接请求，连接成功返回一个socket对象
+Socket linkSocket = reqSocket.Connect();
+step4:接收客户端消息
+Byte[] buffer = new Byte[1024];
+int realByte = linkSocket.Receive(buffer);
+step5:发送信息
+Byte[] buffer = new Byte[1024];
+linkSocket.Send(buffer,0,length);
+
+（3）关闭socket socket.Close();
+
+5.分类
+（1）Socket STREAM:针对TCP （三次握手：保证数据的准确传输） ，有连接， 安全，效率低
+三次握手：
+   |      |                                   |      |
+   |      |     --DATA1发给你了-————-》       |      |
+   |      |   《---------- DATA1收到了        |      |
+   |客户端|    --知道你收到DATA1了---》       |服务器|        
+   |      |		--DATA2发给你了-————-》       |      |
+   |      |                ...                |      |
+（2）socket DATAGRAM（数据报） ：针对UDP  ，无连接模式， 不安全，效率高
+6.关键字及命名空间
+（1）Socket
+（2）using System.Net.Sockets;
+*/
+
+
+
+
+telnet 192.168.0.102 50000

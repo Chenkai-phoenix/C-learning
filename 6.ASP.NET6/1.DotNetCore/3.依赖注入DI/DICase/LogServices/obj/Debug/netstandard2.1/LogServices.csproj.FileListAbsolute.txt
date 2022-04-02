@@ -1,0 +1,10 @@
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\bin\Debug\netstandard2.1\LogServices.deps.json
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\bin\Debug\netstandard2.1\LogServices.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\bin\Debug\netstandard2.1\LogServices.pdb
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\obj\Debug\netstandard2.1\LogServices.csproj.AssemblyReference.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\obj\Debug\netstandard2.1\LogServices.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\obj\Debug\netstandard2.1\LogServices.AssemblyInfoInputs.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\obj\Debug\netstandard2.1\LogServices.AssemblyInfo.cs
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\obj\Debug\netstandard2.1\LogServices.csproj.CoreCompileInputs.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\obj\Debug\netstandard2.1\LogServices.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\LogServices\obj\Debug\netstandard2.1\LogServices.pdb

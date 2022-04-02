@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8+qS1zyUvtAXbuoJV3GnrbLkdufOrSOGO/wzJpWeDUBseFllRLQFgFo1IG1I0vjh0VH8hmV7v/MGYDUXG2UB/w==",
+  "success": true,
+  "projectFilePath": "F:\\CSharpCode\\6.ASP.NET6\\1.DotNetCore\\3.依赖注入\\DICase\\ConfigServices\\ConfigServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\dell\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

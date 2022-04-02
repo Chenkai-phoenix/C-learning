@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CSS</title>
+    <!--嵌入式样式表（优先级小于内联样式表）-->
+    <style type="text/css">
+        p {
+            background-color: yellow;
+            font-size: small;
+        }
+
+        em {
+            background-color: pink;
+        }
+    </style>
+    <!--引入样式表优先级小于内联-->
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css">
+</head>
+<body>
+    <!--内联样式表-->
+    <p style="background-color:red;font-size:xx-large">春眠不觉晓</p>
+    <p>处处闻啼鸟</p>
+    <p>夜来风雨声</p>
+    <p>花落知多少</p>
+    <em>我是斜体。。。</em>
+    <em>我是斜体。。。</em>
+    <em>我是斜体。。。</em>
+    <em>我是斜体。。。</em>
+</html>

@@ -1,0 +1,13 @@
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\bin\Debug\netstandard2.1\ConfigServices.deps.json
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\bin\Debug\netstandard2.1\ConfigServices.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\bin\Debug\netstandard2.1\ConfigServices.pdb
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\obj\Debug\netstandard2.1\ConfigServices.csproj.AssemblyReference.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\obj\Debug\netstandard2.1\ConfigServices.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\obj\Debug\netstandard2.1\ConfigServices.AssemblyInfoInputs.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\obj\Debug\netstandard2.1\ConfigServices.AssemblyInfo.cs
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\obj\Debug\netstandard2.1\ConfigServices.csproj.CoreCompileInputs.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\obj\Debug\netstandard2.1\ConfigServices.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\obj\Debug\netstandard2.1\ConfigServices.pdb
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\bin\Debug\netstandard2.1\LogServices.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\bin\Debug\netstandard2.1\LogServices.pdb
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\3.依赖注入\DICase\ConfigServices\obj\Debug\netstandard2.1\ConfigServices.csproj.CopyComplete

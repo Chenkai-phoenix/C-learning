@@ -1,0 +1,10 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>Index</h1>
+<!--刷新网页时控制器的计算结果不变，结果写进了一直从缓存中读取；视图中的实际计算结果是系统时间一直变化-->
+<h2>控制器的计算结果：@ViewBag.Date1</h2>
+<h3>视图中的实际计算结果：@DateTime.Now.ToString("yyyy-MM-dd H:mm:s:fff ")</h3>

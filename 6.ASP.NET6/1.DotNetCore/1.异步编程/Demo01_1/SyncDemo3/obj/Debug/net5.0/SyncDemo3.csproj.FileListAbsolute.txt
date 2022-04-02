@@ -1,0 +1,16 @@
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\bin\Debug\net5.0\SyncDemo3.exe
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\bin\Debug\net5.0\SyncDemo3.deps.json
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\bin\Debug\net5.0\SyncDemo3.runtimeconfig.json
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\bin\Debug\net5.0\SyncDemo3.runtimeconfig.dev.json
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\bin\Debug\net5.0\SyncDemo3.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\bin\Debug\net5.0\SyncDemo3.pdb
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\SyncDemo3.csproj.AssemblyReference.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\SyncDemo3.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\SyncDemo3.AssemblyInfoInputs.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\SyncDemo3.AssemblyInfo.cs
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\SyncDemo3.csproj.CoreCompileInputs.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\SyncDemo3.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\refint\SyncDemo3.dll
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\SyncDemo3.pdb
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\SyncDemo3.genruntimeconfig.cache
+F:\CSharpCode\6.ASP.NET6\1.DotNetCore\Demo01_1\SyncDemo3\obj\Debug\net5.0\ref\SyncDemo3.dll

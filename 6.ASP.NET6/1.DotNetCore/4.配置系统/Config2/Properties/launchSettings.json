@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Config2": {
+      "commandName": "Project",
+      "commandLineArgs": "name=\"ck\" age=18 proxy:address=192.168,0,1 proxy:port=500 proxy:ids:0=123  proxy:ids:1=ZXC"
+    }
+  }
+}

@@ -1,0 +1,435 @@
+2022-04-01 12:42:59.9946 Info Message Template Auto Format enabled
+2022-04-01 12:43:00.0403 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-01 12:43:00.1753 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2022-04-01 12:43:01.0695 Info Adding target FileTarget(Name=allfile)
+2022-04-01 12:43:01.0768 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 12:43:01.0768 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 12:43:01.0904 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-01 12:43:01.2064 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-01 12:43:01.4974 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\NLog.config
+2022-04-01 12:43:01.5931 Info Configuration initialized.
+2022-04-01 12:43:01.5931 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2022-04-01 12:43:02.5418 Info AppDomain Shutting down. Logger closing...
+2022-04-01 12:43:02.6400 Info Logger has been shut down.
+2022-04-01 12:52:02.6296 Info Message Template Auto Format enabled
+2022-04-01 12:52:02.7161 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-01 12:52:02.8365 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2022-04-01 12:52:05.7123 Info Adding target FileTarget(Name=allfile)
+2022-04-01 12:52:05.7496 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 12:52:05.7779 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 12:52:05.7779 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-01 12:52:05.7968 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-01 12:52:06.0463 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, ConfigItems=56, FilePath=F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\NLog.config
+2022-04-01 12:52:06.1421 Info Configuration initialized.
+2022-04-01 12:52:06.1421 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2022-04-01 12:52:07.3905 Info AppDomain Shutting down. Logger closing...
+2022-04-01 12:52:07.4133 Info Logger has been shut down.
+2022-04-01 13:15:21.8238 Info Message Template Auto Format enabled
+2022-04-01 13:15:21.9120 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-01 13:15:21.9234 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2022-04-01 13:15:22.3814 Info Adding target FileTarget(Name=allfile)
+2022-04-01 13:15:22.3843 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:15:22.3843 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:15:22.3843 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-01 13:15:22.3843 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-01 13:15:22.3843 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:15:22.3843 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:15:22.3843 Info Adding target FileTarget(Name=SystemService)
+2022-04-01 13:15:22.4633 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, SystemService, ConfigItems=82, FilePath=F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\NLog.config
+2022-04-01 13:15:22.4868 Info Configuration initialized.
+2022-04-01 13:15:22.4868 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2022-04-01 13:15:22.7086 Info AppDomain Shutting down. Logger closing...
+2022-04-01 13:15:22.7224 Info Logger has been shut down.
+2022-04-01 13:16:54.6183 Info Message Template Auto Format enabled
+2022-04-01 13:16:54.6183 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-01 13:16:54.6379 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2022-04-01 13:16:54.7871 Info Adding target FileTarget(Name=allfile)
+2022-04-01 13:16:54.7949 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:16:54.7949 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:16:54.8181 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-01 13:16:54.8207 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-01 13:16:54.8207 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:16:54.8207 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:16:54.8207 Info Adding target FileTarget(Name=SystemServices)
+2022-04-01 13:16:54.9082 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, SystemServices, ConfigItems=82, FilePath=F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\NLog.config
+2022-04-01 13:16:54.9625 Info Configuration initialized.
+2022-04-01 13:16:54.9625 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2022-04-01 13:16:55.3769 Info AppDomain Shutting down. Logger closing...
+2022-04-01 13:16:55.4151 Info Logger has been shut down.
+2022-04-01 13:24:16.4142 Info Message Template Auto Format enabled
+2022-04-01 13:24:16.4142 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-01 13:24:16.5302 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2022-04-01 13:24:16.8394 Info Adding target FileTarget(Name=allfile)
+2022-04-01 13:24:16.8394 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:24:16.8525 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:24:16.8525 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-01 13:24:16.8525 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-01 13:24:16.8993 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:24:16.8993 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:24:16.8993 Info Adding target FileTarget(Name=SystemServices)
+2022-04-01 13:24:16.9875 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, SystemServices, ConfigItems=82, FilePath=F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\NLog.config
+2022-04-01 13:24:17.0226 Info Configuration initialized.
+2022-04-01 13:24:17.0226 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2022-04-01 13:24:17.6187 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.0.log
+2022-04-01 13:24:18.1191 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.1.log
+2022-04-01 13:24:18.4672 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.2.log
+2022-04-01 13:24:18.7593 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.0.log'.
+2022-04-01 13:24:18.7593 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.3.log
+2022-04-01 13:24:19.0554 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.1.log'.
+2022-04-01 13:24:19.0708 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.4.log
+2022-04-01 13:24:19.6807 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.2.log'.
+2022-04-01 13:24:19.6952 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.5.log
+2022-04-01 13:24:20.0402 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.3.log'.
+2022-04-01 13:24:20.0569 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.6.log
+2022-04-01 13:24:20.4924 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.4.log'.
+2022-04-01 13:24:20.4924 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.7.log
+2022-04-01 13:24:20.8821 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.5.log'.
+2022-04-01 13:24:20.9068 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.8.log
+2022-04-01 13:24:21.3677 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.6.log'.
+2022-04-01 13:24:21.3677 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.9.log
+2022-04-01 13:24:21.6803 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.7.log'.
+2022-04-01 13:24:21.6803 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.10.log
+2022-04-01 13:24:21.9933 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.8.log'.
+2022-04-01 13:24:21.9933 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.11.log
+2022-04-01 13:24:22.1954 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.9.log'.
+2022-04-01 13:24:22.1954 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.12.log
+2022-04-01 13:24:22.4013 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.10.log'.
+2022-04-01 13:24:22.4013 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.13.log
+2022-04-01 13:24:22.6223 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.11.log'.
+2022-04-01 13:24:22.6334 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.14.log
+2022-04-01 13:24:22.9624 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.12.log'.
+2022-04-01 13:24:22.9819 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.15.log
+2022-04-01 13:24:23.3054 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.13.log'.
+2022-04-01 13:24:23.3054 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.16.log
+2022-04-01 13:24:23.5706 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.14.log'.
+2022-04-01 13:24:23.5706 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.17.log
+2022-04-01 13:24:23.7601 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.15.log'.
+2022-04-01 13:24:23.7757 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.18.log
+2022-04-01 13:24:24.0398 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.16.log'.
+2022-04-01 13:24:24.0398 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.19.log
+2022-04-01 13:24:24.2429 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.17.log'.
+2022-04-01 13:24:24.2429 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.20.log
+2022-04-01 13:24:24.5818 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.18.log'.
+2022-04-01 13:24:24.5818 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.21.log
+2022-04-01 13:24:24.8859 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.19.log'.
+2022-04-01 13:24:24.8859 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.22.log
+2022-04-01 13:24:25.1328 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.20.log'.
+2022-04-01 13:24:25.1328 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.23.log
+2022-04-01 13:24:25.4001 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.21.log'.
+2022-04-01 13:24:25.4001 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.24.log
+2022-04-01 13:24:25.5877 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.22.log'.
+2022-04-01 13:24:25.5877 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.25.log
+2022-04-01 13:24:25.8366 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.23.log'.
+2022-04-01 13:24:25.8366 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.26.log
+2022-04-01 13:24:26.1257 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.24.log'.
+2022-04-01 13:24:26.1257 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.27.log
+2022-04-01 13:24:26.4317 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.25.log'.
+2022-04-01 13:24:26.4507 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.28.log
+2022-04-01 13:24:26.7282 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.26.log'.
+2022-04-01 13:24:26.7282 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.29.log
+2022-04-01 13:24:26.8994 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.27.log'.
+2022-04-01 13:24:26.8994 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.30.log
+2022-04-01 13:24:27.0699 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.28.log'.
+2022-04-01 13:24:27.0699 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.31.log
+2022-04-01 13:24:27.2585 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.29.log'.
+2022-04-01 13:24:27.2585 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.32.log
+2022-04-01 13:24:27.4002 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.30.log'.
+2022-04-01 13:24:27.4002 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.33.log
+2022-04-01 13:24:27.7120 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.31.log'.
+2022-04-01 13:24:27.7120 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.34.log
+2022-04-01 13:24:27.9807 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.32.log'.
+2022-04-01 13:24:27.9807 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.35.log
+2022-04-01 13:24:28.1799 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.33.log'.
+2022-04-01 13:24:28.1959 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.36.log
+2022-04-01 13:24:28.4175 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.34.log'.
+2022-04-01 13:24:28.4302 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.37.log
+2022-04-01 13:24:28.6338 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.35.log'.
+2022-04-01 13:24:28.6338 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.38.log
+2022-04-01 13:24:28.8075 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.36.log'.
+2022-04-01 13:24:28.8075 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.39.log
+2022-04-01 13:24:28.9614 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.37.log'.
+2022-04-01 13:24:28.9614 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.40.log
+2022-04-01 13:24:29.2499 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.38.log'.
+2022-04-01 13:24:29.2499 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.41.log
+2022-04-01 13:24:29.5875 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.39.log'.
+2022-04-01 13:24:29.5875 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.42.log
+2022-04-01 13:24:29.8041 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.40.log'.
+2022-04-01 13:24:29.8041 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.43.log
+2022-04-01 13:24:30.0097 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.41.log'.
+2022-04-01 13:24:30.0097 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.44.log
+2022-04-01 13:24:30.1656 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.42.log'.
+2022-04-01 13:24:30.1656 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.45.log
+2022-04-01 13:24:30.3677 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.43.log'.
+2022-04-01 13:24:30.3677 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.46.log
+2022-04-01 13:24:30.5234 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.44.log'.
+2022-04-01 13:24:30.5234 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.47.log
+2022-04-01 13:24:30.7455 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.45.log'.
+2022-04-01 13:24:30.7455 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.48.log
+2022-04-01 13:24:31.0551 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.46.log'.
+2022-04-01 13:24:31.0551 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.49.log
+2022-04-01 13:24:31.2901 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.47.log'.
+2022-04-01 13:24:31.2901 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.50.log
+2022-04-01 13:24:31.5718 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.48.log'.
+2022-04-01 13:24:31.5718 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.51.log
+2022-04-01 13:24:31.7583 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.49.log'.
+2022-04-01 13:24:31.7583 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.52.log
+2022-04-01 13:24:31.9608 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.50.log'.
+2022-04-01 13:24:31.9608 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.53.log
+2022-04-01 13:24:32.1665 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.51.log'.
+2022-04-01 13:24:32.1665 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.54.log
+2022-04-01 13:24:32.4966 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.52.log'.
+2022-04-01 13:24:32.4966 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.55.log
+2022-04-01 13:24:32.7922 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.53.log'.
+2022-04-01 13:24:32.7922 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.56.log
+2022-04-01 13:24:33.0252 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.54.log'.
+2022-04-01 13:24:33.0252 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.57.log
+2022-04-01 13:24:33.1823 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.55.log'.
+2022-04-01 13:24:33.1963 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.58.log
+2022-04-01 13:24:33.3365 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.56.log'.
+2022-04-01 13:24:33.3365 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.59.log
+2022-04-01 13:24:33.5876 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.57.log'.
+2022-04-01 13:24:33.5876 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.60.log
+2022-04-01 13:24:33.7834 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.58.log'.
+2022-04-01 13:24:33.7834 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.61.log
+2022-04-01 13:24:34.1683 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.59.log'.
+2022-04-01 13:24:34.1683 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.62.log
+2022-04-01 13:24:34.3839 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.60.log'.
+2022-04-01 13:24:34.3839 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.63.log
+2022-04-01 13:24:34.5709 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.61.log'.
+2022-04-01 13:24:34.5709 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.64.log
+2022-04-01 13:24:34.6972 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.62.log'.
+2022-04-01 13:24:34.6972 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.65.log
+2022-04-01 13:24:34.8526 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.63.log'.
+2022-04-01 13:24:34.8526 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.66.log
+2022-04-01 13:24:35.0243 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.64.log'.
+2022-04-01 13:24:35.0243 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.67.log
+2022-04-01 13:24:35.1503 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.65.log'.
+2022-04-01 13:24:35.1641 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.68.log
+2022-04-01 13:24:35.3054 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.66.log'.
+2022-04-01 13:24:35.3054 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.69.log
+2022-04-01 13:24:35.6217 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.67.log'.
+2022-04-01 13:24:35.6217 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.70.log
+2022-04-01 13:24:35.9167 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.68.log'.
+2022-04-01 13:24:35.9167 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.71.log
+2022-04-01 13:24:36.1028 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.69.log'.
+2022-04-01 13:24:36.1028 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.72.log
+2022-04-01 13:24:36.4615 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.70.log'.
+2022-04-01 13:24:36.4762 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.73.log
+2022-04-01 13:24:36.6664 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.71.log'.
+2022-04-01 13:24:36.6664 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.74.log
+2022-04-01 13:24:36.8209 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.72.log'.
+2022-04-01 13:24:36.8209 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.75.log
+2022-04-01 13:24:37.0871 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.73.log'.
+2022-04-01 13:24:37.0871 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.76.log
+2022-04-01 13:24:37.1194 Info AppDomain Shutting down. Logger closing...
+2022-04-01 13:24:37.3095 Info Logger has been shut down.
+2022-04-01 13:30:08.4225 Info Message Template Auto Format enabled
+2022-04-01 13:30:08.5486 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-01 13:30:08.6944 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2022-04-01 13:30:09.6993 Info Adding target FileTarget(Name=allfile)
+2022-04-01 13:30:09.7221 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:30:09.7693 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:30:09.7796 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-01 13:30:09.8418 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-01 13:30:10.0726 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:30:10.1324 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:30:10.1483 Info Adding target FileTarget(Name=SystemServices)
+2022-04-01 13:30:11.5927 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, SystemServices, ConfigItems=82, FilePath=F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\NLog.config
+2022-04-01 13:30:11.7396 Info Configuration initialized.
+2022-04-01 13:30:11.7736 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2022-04-01 13:30:13.1842 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.74.log'.
+2022-04-01 13:30:13.1842 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.77.log
+2022-04-01 13:30:14.1947 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.75.log'.
+2022-04-01 13:30:14.2062 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.78.log
+2022-04-01 13:30:15.0101 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.76.log'.
+2022-04-01 13:30:15.0101 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.79.log
+2022-04-01 13:30:15.9942 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.77.log'.
+2022-04-01 13:30:15.9942 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.80.log
+2022-04-01 13:30:16.6157 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.78.log'.
+2022-04-01 13:30:16.6613 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.81.log
+2022-04-01 13:30:17.1328 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.79.log'.
+2022-04-01 13:30:17.1328 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.82.log
+2022-04-01 13:30:17.8385 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.80.log'.
+2022-04-01 13:30:17.8385 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.83.log
+2022-04-01 13:30:18.2278 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.81.log'.
+2022-04-01 13:30:18.2795 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.84.log
+2022-04-01 13:30:18.8466 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.82.log'.
+2022-04-01 13:30:18.8589 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.85.log
+2022-04-01 13:30:19.4050 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.83.log'.
+2022-04-01 13:30:19.4537 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.86.log
+2022-04-01 13:30:20.0238 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.84.log'.
+2022-04-01 13:30:20.0238 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.87.log
+2022-04-01 13:30:20.5797 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.85.log'.
+2022-04-01 13:30:20.5797 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.88.log
+2022-04-01 13:30:20.9649 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.86.log'.
+2022-04-01 13:30:20.9649 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.89.log
+2022-04-01 13:30:21.3842 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.87.log'.
+2022-04-01 13:30:21.3842 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.90.log
+2022-04-01 13:30:22.3447 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.88.log'.
+2022-04-01 13:30:22.3524 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.91.log
+2022-04-01 13:30:22.6326 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.89.log'.
+2022-04-01 13:30:22.6326 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.92.log
+2022-04-01 13:30:23.4163 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.90.log'.
+2022-04-01 13:30:23.4330 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.93.log
+2022-04-01 13:30:24.4032 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.91.log'.
+2022-04-01 13:30:24.4032 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.94.log
+2022-04-01 13:30:25.2234 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.92.log'.
+2022-04-01 13:30:25.3132 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.95.log
+2022-04-01 13:30:26.3213 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.93.log'.
+2022-04-01 13:30:26.3213 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.96.log
+2022-04-01 13:30:27.1573 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.94.log'.
+2022-04-01 13:30:27.1573 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.97.log
+2022-04-01 13:30:28.4007 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.95.log'.
+2022-04-01 13:30:28.4007 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.98.log
+2022-04-01 13:30:29.3703 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.96.log'.
+2022-04-01 13:30:29.3703 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.99.log
+2022-04-01 13:30:30.1217 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.97.log'.
+2022-04-01 13:30:30.1217 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.100.log
+2022-04-01 13:30:31.0240 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.98.log'.
+2022-04-01 13:30:31.0240 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.101.log
+2022-04-01 13:30:31.6504 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.99.log'.
+2022-04-01 13:30:31.6504 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.102.log
+2022-04-01 13:30:32.0890 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.100.log'.
+2022-04-01 13:30:32.0890 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.103.log
+2022-04-01 13:30:32.6527 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.101.log'.
+2022-04-01 13:30:32.6527 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.104.log
+2022-04-01 13:30:33.7576 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.102.log'.
+2022-04-01 13:30:33.7576 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.105.log
+2022-04-01 13:30:34.2137 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.103.log'.
+2022-04-01 13:30:34.2310 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.106.log
+2022-04-01 13:30:34.7926 Info AppDomain Shutting down. Logger closing...
+2022-04-01 13:30:34.8216 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.104.log'.
+2022-04-01 13:30:34.8541 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.107.log
+2022-04-01 13:30:34.9781 Info Logger has been shut down.
+2022-04-01 13:31:54.4111 Info Message Template Auto Format enabled
+2022-04-01 13:31:54.4726 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-01 13:31:54.5150 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Error loading extensions: NLog.Web.AspNetCore
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'. 系统找不到指定的文件。
+File name: 'NLog.Web.AspNetCore, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.InternalLoad(ObjectHandleOnStack assemblyName, ObjectHandleOnStack requestingAssembly, StackCrawlMarkHandle stackMark, Boolean throwOnFileNotFound, ObjectHandleOnStack assemblyLoadContext, ObjectHandleOnStack retAssembly)
+   at System.Reflection.RuntimeAssembly.InternalLoad(AssemblyName assemblyName, RuntimeAssembly requestingAssembly, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at NLog.Internal.AssemblyHelpers.LoadFromName(String assemblyName)
+   at NLog.Config.LoggingConfigurationParser.ParseExtensionWithAssembly(String assemblyName, String prefix)
+   --- End of inner exception stack trace ---
+2022-04-01 13:31:55.0487 Info Adding target FileTarget(Name=allfile)
+2022-04-01 13:31:55.0487 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:31:55.0568 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:31:55.0568 Info Adding target FileTarget(Name=ownFile-web)
+2022-04-01 13:31:55.0715 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-04-01 13:31:55.1798 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:31:55.1798 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name, Nullable`1 throwConfigExceptions)
+2022-04-01 13:31:55.1798 Info Adding target FileTarget(Name=SystemServices)
+2022-04-01 13:31:55.3913 Info Validating config: TargetNames=allfile, lifetimeConsole, ownFile-web, SystemServices, ConfigItems=83, FilePath=F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\NLog.config
+2022-04-01 13:31:55.5047 Info Configuration initialized.
+2022-04-01 13:31:55.5047 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.11.13229. Product version: 4.7.11+33ed3a9f86277651e93ddf39cda64a046a06778b. GlobalAssemblyCache: False
+2022-04-01 13:31:57.4127 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.105.log'.
+2022-04-01 13:31:57.4250 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.108.log
+2022-04-01 13:31:58.6639 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.106.log'.
+2022-04-01 13:31:58.6639 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.109.log
+2022-04-01 13:31:59.8879 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.107.log'.
+2022-04-01 13:31:59.8879 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.110.log
+2022-04-01 13:32:00.6827 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.108.log'.
+2022-04-01 13:32:00.7046 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.111.log
+2022-04-01 13:32:02.1040 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.109.log'.
+2022-04-01 13:32:02.1040 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.112.log
+2022-04-01 13:32:03.2736 Info FileTarget(Name=SystemServices): Deleting old archive file: 'F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.110.log'.
+2022-04-01 13:32:03.3289 Info FileTarget(Name=SystemServices): Archiving F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.log to F:\CSharpCode\6.ASP.NET6\1.DotNetCore\5.dotnet日志系统\ConsoleApp1\bin\Debug\net5.0\logs\nlog-SystemServices-2022-04-01.113.log
+2022-04-01 13:32:03.7746 Info AppDomain Shutting down. Logger closing...
+2022-04-01 13:32:04.1650 Info Logger has been shut down.
