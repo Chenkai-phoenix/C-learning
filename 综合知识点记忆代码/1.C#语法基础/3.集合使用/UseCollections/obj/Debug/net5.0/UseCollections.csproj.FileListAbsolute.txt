@@ -1,0 +1,16 @@
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\bin\Debug\net5.0\UseCollections.exe
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\bin\Debug\net5.0\UseCollections.deps.json
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\bin\Debug\net5.0\UseCollections.runtimeconfig.json
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\bin\Debug\net5.0\UseCollections.runtimeconfig.dev.json
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\bin\Debug\net5.0\UseCollections.dll
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\bin\Debug\net5.0\UseCollections.pdb
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\UseCollections.csproj.AssemblyReference.cache
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\UseCollections.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\UseCollections.AssemblyInfoInputs.cache
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\UseCollections.AssemblyInfo.cs
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\UseCollections.csproj.CoreCompileInputs.cache
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\UseCollections.dll
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\refint\UseCollections.dll
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\UseCollections.pdb
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\UseCollections.genruntimeconfig.cache
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\3.集合使用\UseCollections\obj\Debug\net5.0\ref\UseCollections.dll

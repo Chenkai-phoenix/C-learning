@@ -1,0 +1,17 @@
+F:\CSharpCode\二.Winform\WinFormsApp3\bin\Debug\net6.0-windows\WinFormsApp3.exe
+F:\CSharpCode\二.Winform\WinFormsApp3\bin\Debug\net6.0-windows\WinFormsApp3.deps.json
+F:\CSharpCode\二.Winform\WinFormsApp3\bin\Debug\net6.0-windows\WinFormsApp3.runtimeconfig.json
+F:\CSharpCode\二.Winform\WinFormsApp3\bin\Debug\net6.0-windows\WinFormsApp3.dll
+F:\CSharpCode\二.Winform\WinFormsApp3\bin\Debug\net6.0-windows\WinFormsApp3.pdb
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.csproj.AssemblyReference.cache
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.Form1.resources
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.csproj.GenerateResource.cache
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.AssemblyInfoInputs.cache
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.AssemblyInfo.cs
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.csproj.CoreCompileInputs.cache
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.dll
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\refint\WinFormsApp3.dll
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.pdb
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\WinFormsApp3.genruntimeconfig.cache
+F:\CSharpCode\二.Winform\WinFormsApp3\obj\Debug\net6.0-windows\ref\WinFormsApp3.dll

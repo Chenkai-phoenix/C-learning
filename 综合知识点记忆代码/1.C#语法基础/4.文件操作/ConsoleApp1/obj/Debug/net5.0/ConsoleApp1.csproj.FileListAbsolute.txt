@@ -1,0 +1,16 @@
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.exe
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.deps.json
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.json
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.dev.json
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.dll
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.pdb
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.AssemblyReference.cache
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfo.cs
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.dll
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\refint\ConsoleApp1.dll
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.pdb
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.genruntimeconfig.cache
+F:\CSharpCode\综合知识点记忆代码\1.C#语法基础\4.文件操作\ConsoleApp1\obj\Debug\net5.0\ref\ConsoleApp1.dll

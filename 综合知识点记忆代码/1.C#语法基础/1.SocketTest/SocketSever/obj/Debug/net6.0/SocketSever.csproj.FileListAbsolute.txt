@@ -1,0 +1,15 @@
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\SocketSever.csproj.AssemblyReference.cache
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\SocketSever.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\SocketSever.AssemblyInfoInputs.cache
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\SocketSever.AssemblyInfo.cs
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\SocketSever.csproj.CoreCompileInputs.cache
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\bin\Debug\net6.0\SocketSever.exe
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\bin\Debug\net6.0\SocketSever.deps.json
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\bin\Debug\net6.0\SocketSever.runtimeconfig.json
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\bin\Debug\net6.0\SocketSever.dll
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\bin\Debug\net6.0\SocketSever.pdb
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\SocketSever.dll
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\refint\SocketSever.dll
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\SocketSever.pdb
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\SocketSever.genruntimeconfig.cache
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketSever\obj\Debug\net6.0\ref\SocketSever.dll

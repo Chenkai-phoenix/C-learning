@@ -1,0 +1,15 @@
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\bin\Debug\net6.0\SocketClient.exe
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\bin\Debug\net6.0\SocketClient.deps.json
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\bin\Debug\net6.0\SocketClient.runtimeconfig.json
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\bin\Debug\net6.0\SocketClient.dll
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\bin\Debug\net6.0\SocketClient.pdb
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\SocketClient.csproj.AssemblyReference.cache
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\SocketClient.GeneratedMSBuildEditorConfig.editorconfig
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\SocketClient.AssemblyInfoInputs.cache
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\SocketClient.AssemblyInfo.cs
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\SocketClient.csproj.CoreCompileInputs.cache
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\SocketClient.dll
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\refint\SocketClient.dll
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\SocketClient.pdb
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\SocketClient.genruntimeconfig.cache
+F:\CSharpCode\综合知识点记忆代码\1.SocketTest\SocketClient\obj\Debug\net6.0\ref\SocketClient.dll
